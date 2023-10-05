@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*Header*/
+header {
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    background-color: rgba(243, 252, 247, 1);
+padding: 20px 0;
+
+
+}
+
+.header .logo {
+    font-family: Inter;
+font-size: 15px;
+color:rgba(6, 193, 103, 1);
+font-weight: lighter;
+
+
+}
+
+
+
+.header-menu-list ul{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+
+
+
+}
+
+
+
+.header-menu-list ul li a {
+    text-decoration: none;
+    margin: 10px 10px;
+    color: rgba(29, 29, 31, 1);
+    font-family: Inter;
+    display: inline-block;
+    font-size: 18px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+    
+
+
+
+}
+
+
+/*Prepared*/
+.prepared-section {
+
+    background-color: rgba(243, 252, 247, 1);
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+box-sizing: border-box;
+
+
+
+}
+
+.prepared-section .prepared-texts {
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+
+}
+
+.prepared-section h1 {
+    font-family: Inter;
+    font-size: 75px;
+    font-weight: 600;
+    line-height: 91px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(29, 29, 31, 1);
+    
+
+
+
+
+}
+
+.prepared-section .prepared-button a {
+
+
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-top: 50px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+    background:rgba(6, 193, 103, 1);
+    
+}
+
+.prepared-section .prepared-button i {
+    margin-left: 10px;
+   
+
+}
+.prepared-section .prepared-images{
+    position: relative;
+    
+}
+
+
+.prepared-section .prepared-img :nth-child(1) {
+   width: 350px;
+   height: 500px;
+   position: absolute;
+   top:60px;
+   right:60px;
+   border-radius: 20px;
+
+   
+
+
+}
+.prepared-section .prepared-img :nth-child(2){
+    width:100px;
+    height:100px;
+    position: absolute;
+    z-index: 9999;
+    left: 190px;
+    top:410px;
+    
+
+
+
+    
+    
+}
+
+
+.prepared-section .mini-cards .single-card{
+    background-color: rgba(255, 255, 255, 1);
+    
+    padding: 10px 15px;
+    position: relative;
+    z-index: 999999;
+    border-radius: 20px;
+
+
+}
+
+.prepared-section .mini-cards #card-1{
+    top:220px;
+    left:30px;
+}
+.prepared-section .mini-cards #card-2{
+    left: 280px;
+    top:80px;
+}
